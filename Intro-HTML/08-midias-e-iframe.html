@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias e Iframe</title>
+</head>
+<body>
+    <!--iframe = inline Frame. Esse recurso é bastante utilizado para incorporar (embed) recursos internos e externos no nosso documento HTML-->
+
+    <!--Exemplo de recurso externo, no caso, um vídeo do youtube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e8lSYc3WvJ8?si=5DOjhC6sS6OrmC-T" 
+    title="Video do episódio final de um show controlado por aliens que forçam gays a lutarem num musical. O show se chama Alien Stage"
+     frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+    <!-- Exemplo de conteúdo interno-->
+     <iframe src="03-listas.html" title="página com recursos sobre listas" frameborder="0" width="900" height="200"></iframe>
+
+     <!--Carregando conteúdo externo - Mapas-->
+     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4011.3737082025!2d23.319039695839418!3d12.371025491120696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDIyJzEzLjMiTiAyM8KwMTknMjAuMiJF!5e1!3m2!1spt-BR!2sbr!4v1753834432218!5m2!1spt-BR!2sbr" 
+     title="localização no mapa dos lábios do mundo"
+     width="600" height="450" 
+     style="border: 10px solid green;" 
+     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<hr> 
+
+<h2>Carregando conteúdo interno</h2>
+<ul>
+    <li><a href="big shot.png" target="galeria">Big Shot</a></li>
+    <li><a href="bulbasaur.png" target="galeria">bulbasaur</a></li>
+</ul>
+
+
+<iframe name= "galeria" src="bulbasaur.png" frameborder="0" width="600" height="500"></iframe>
+
+</body>
+</html>
